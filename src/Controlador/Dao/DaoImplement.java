@@ -43,7 +43,7 @@ public class DaoImplement<T> implements DaoInterface<T>{
         DynamicList<T> Id=all();
         
         try {
-          Id.getInfo(index);
+           Id.getNode(index).setInfo(data);
           
 
         } catch (Exception e) {
