@@ -1,0 +1,23 @@
+{
+    "Controlador.Listas.DynamicList": {
+        "header": {
+            "info": {
+                "@class": "Modelo.Tipos",
+                "Id_casa": {
+                    "id": 1,
+                    "nombre_casa": "Casa unifamiliar",
+                    "descripcion": "Vivienda independiente"
+                },
+                "estado_pago": "Cancelado",
+                "direccion": " Las Paltas",
+                "estado_casa": "Hipotecada",
+                "dimension": "Largo: 132, Ancho: 876",
+                "vendedor": "Mora"
+            }
+        },
+        "last": {
+            "@reference": "..\/header"
+        },
+        "length": 1
+    }
+}
